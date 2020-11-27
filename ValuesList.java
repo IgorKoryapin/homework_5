@@ -15,7 +15,7 @@ public class ValuesList {
 
             int[][] valListData = valList.getData();
             for (int i = 0; i < valListData.length; i++) {
-                for (j = 0; j < valListData[i].length; j++) {
+                for (int j = 0; j < valListData[i].length; j++) {
                     out.print(valListData[i][j] + ";");
                 }
                 out.write("\r\n");
